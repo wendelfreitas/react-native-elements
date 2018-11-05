@@ -118,7 +118,6 @@ exports[`Card Component should have Card title with image 1`] = `
           Object {
             "backgroundColor": "red",
             "color": "#43484d",
-            "fontFamily": "arial",
             "fontSize": 17.5,
             "fontWeight": "bold",
             "marginBottom": 15,
@@ -193,7 +192,6 @@ exports[`Card Component should have Card title without image 1`] = `
         style={
           Object {
             "color": "#43484d",
-            "fontFamily": "arial",
             "fontSize": 17.5,
             "fontWeight": "bold",
             "marginBottom": 15,
