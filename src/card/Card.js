@@ -17,7 +17,6 @@ import Divider from '../divider/Divider';
 const Card = props => {
   const {
     children,
-    flexDirection,
     containerStyle,
     wrapperStyle,
     imageWrapperStyle,
@@ -49,7 +48,6 @@ const Card = props => {
         style={StyleSheet.flatten([
           styles.wrapper,
           wrapperStyle && wrapperStyle,
-          flexDirection && { flexDirection },
         ])}
       >
         {title === '' || React.isValidElement(title)
@@ -132,7 +130,6 @@ const Card = props => {
 
 Card.propTypes = {
   children: PropTypes.any,
-  flexDirection: PropTypes.string,
   containerStyle: ViewPropTypes.style,
   wrapperStyle: ViewPropTypes.style,
   overlayStyle: ViewPropTypes.style,
