@@ -28,6 +28,7 @@ import Rating from './rating/Rating';
 import Header from './header/Header';
 import PricingCard from './pricing/PricingCard';
 import Tooltip from './tooltip/Tooltip';
+import Product from './product/Product';
 
 // helpers
 import Text from './text/Text';
@@ -41,6 +42,7 @@ export {
   ButtonGroup,
   Card,
   Input,
+  Product,
   ListItem,
   PricingCard,
   Tooltip,
